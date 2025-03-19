@@ -1,0 +1,21 @@
+div.first 
+   {color: indigo;}
+ol > li {
+   color: blueviolet;}
+#contacts {
+   color: aqua;}
+[title*="ере"] {
+   color: red;}
+p.basic {
+   color: darkgreen;}
+.another,
+.popular {
+   color: darkblue;}
+.fundamental h1 {
+   color: darkorange;}
+.basic .item {
+   color: deeppink;}
+.basic ~ h2 {
+   color: grey;}
+.carpathians + p 
+   {color: rgb(31, 149, 149);}
