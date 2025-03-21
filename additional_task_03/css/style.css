@@ -1,0 +1,27 @@
+ul>li {
+   color: red;
+}
+
+ul~li {
+   color: green;
+}
+
+ul>ul>li {
+   color: blue;
+}
+
+ul>ul>li~li {
+   color: orange;
+}
+
+ul>ul>ol>li {
+   color: #4597f7;
+}
+
+ul>ul>ol>li~li {
+   color: #5d5d5d;
+}
+
+ul>ul>li>span {
+   color: #a0f0fc;
+}
