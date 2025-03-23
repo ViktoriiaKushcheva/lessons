@@ -89,4 +89,13 @@ body>main>div~div>p {
    line-height: 1.5;
 }
 
+body>footer>a {
+   font-family: "Cardo", serif;
+   font-size: 18px;
+   color: blue;
+   text-decoration: underline;
+   text-decoration-color: blue;
+   word-spacing: 3px;
+}
+
 
