@@ -1,0 +1,92 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+@import url("https: //fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https: //fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Parisienne&family=Poppins:wght@400;500&display=swap");
+
+body>header>div>h1 {
+   font-family: "Merienda", cursive;
+   font-size: 35px;
+   font-weight: 700;
+   color: rgb(197, 118, 38);
+   text-align: center;
+   text-shadow: 2px -2px 3px #000;
+   text-transform: uppercase;
+   line-height: 1;
+   letter-spacing: 5px;
+}
+
+body>header>div>h1+p {
+   font-family: "Cardo", serif;
+   font-size: 25px;
+   font-style: italic;
+   color: rgb(127, 75, 23);
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-color: rgb(127, 75, 23);
+   text-decoration-style: wavy;
+   text-transform: lowercase;
+   line-height: 1;   
+   letter-spacing: 2px;
+}
+
+body>header>div>h2 {
+   font-family: "Cardo", serif;
+   font-size: 20px;
+   font-weight: 700;
+   text-align: center;
+   line-height: 2;
+   text-shadow: 1px 2px 3px #292828;
+}
+
+body>header>div>ul>li {
+   text-align: center;
+}
+
+body>header>div>ul>li>a {
+   font-family: "Cardo", serif;
+   font-size: 18px;
+   color: blue;
+   text-decoration: underline;
+   text-decoration-color: blue;
+   word-spacing: 3px;
+}
+
+body>main>div>h3 {
+   font-family: "Cardo", serif;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 1.7;
+   white-space: nowrap;
+}
+
+body>main>div>p {
+   font-family: "Open-Sans", sans-serif;
+   font-size: 17px;
+}
+
+.link {
+   color: blue;
+   text-decoration: underline;
+   text-decoration-color: blue;
+}
+
+body>main>div~div>h3 {
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   color: #1A1A1A;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   line-height: 1.5;
+   /* -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000; */
+}
+
+body>main>div~div>p {
+   font-family: "Poppins", sans-serif;
+   font-size: 18px;
+   color: #808080;
+   line-height: 1.5;
+}
+
+
