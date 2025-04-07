@@ -18,9 +18,11 @@
    line-height: 1.4;
    margin-bottom: 6px;
 }
+.list {
+   display: inline-block;
+}
 .first li {
    margin-bottom: 14px;
-   display: inline-flex;
    max-height: 20px;
 }
 .circle {
@@ -29,6 +31,7 @@
    height: 20px;
    border-radius: 50%;
    margin-right: 8px;
+   display: inline;
 }
 .circle img {
    padding: 4px 3.5px 3.5px 4px;
