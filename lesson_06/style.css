@@ -1,0 +1,165 @@
+@import url("reset.css");
+@import url("https: //fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https: //fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+
+.first {
+   font-family: "Poppins", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: #808080;
+   margin: 0 auto;
+   max-width: 648px;
+}
+.first p {
+   line-height: 1.5;
+   margin-bottom: 20px;
+}
+.first ul {
+   line-height: 1.4;
+   margin-bottom: 6px;
+}
+.first li {
+   margin-bottom: 14px;
+   display: inline-flex;
+   max-height: 20px;
+}
+.circle {
+   background-color: #00B207;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   margin-right: 8px;
+}
+.circle img {
+   padding: 4px 3.5px 3.5px 4px;
+}
+
+.second {
+   background-color: #302C42;
+}
+.hydra {
+   max-width: 1500px;
+   margin: 0 auto;
+   overflow: hidden;
+   font-size: 0;
+   padding: 100px 84px;
+   background: url("../img/vector1.png") 50px 92px no-repeat, url("../img/vector2.png") 0 367px no-repeat;
+}
+.about_hydra {
+   padding-left: 15px;
+   padding-right: 15px;
+   font-size: 0;
+   margin-bottom: 100px;
+}
+.about_hydra img {
+   max-width: 546px;
+   max-height: 819px;
+   border-radius: 240px 100px;
+   width: 100%;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.title {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #FFF;
+   font-size: 36px;
+   margin-bottom: 5px;
+}
+.additional_title {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 300;
+   font-size: 36px;
+   color: rgba(255, 255, 255, 0.95);
+   text-transform: uppercase;
+   margin-bottom: 42px;
+}
+.hydra_text {
+   font-family: "Montserrat", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #FFF;
+   margin-bottom: 28px;
+}
+.button {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+   color: #343045;
+   font-size: 12px;
+   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+   padding: 17px 47px 16px 39px;
+}
+a {
+   border-radius: 40px;
+   display: inline-block;
+   width: 214px;
+   height: 48px;
+}
+.information {
+   display: inline-block;
+   margin-top: 47px;
+   max-width: 630px;
+}
+.image,
+.information {
+   display: inline-block;
+   vertical-align: top;
+}
+.image {
+   margin-right: 108px;
+}
+
+.contacts {
+   overflow: hidden;
+}
+.contacts_subtitle {
+   width: 1272px;
+   height: 167px;
+   border-radius: 90px;
+   margin: 0 auto;
+   background: url("../img/location.png") 49px 39px no-repeat scroll,
+      url("../img/vertical_line.png") 441.5px no-repeat scroll, 
+      url("../img/phone.png") 489px no-repeat scroll,
+      url("../img/vertical_line.png") 812px no-repeat scroll,
+      url("../img/mail.png") 862px no-repeat scroll, 
+      radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+   box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+.block_information {
+   font-family: "Montserrat", sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   color: #FFF;
+   margin-bottom: 9px;
+}
+.link {
+   font-family: "Montserrat", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: #FFF;
+   margin-bottom: 58px;
+}
+.location,
+.mail,
+.phone {
+   display: inline-block;
+   margin-top: 54px;
+}
+.location {
+   margin-right: 42.5px;
+   margin-left: 109px;
+}
+.location>.link {
+   width: 290px;
+}
+.phone {
+   margin-left: 135.5px;
+}
+.mail {
+   margin-left: 138px;
+}
+
+
