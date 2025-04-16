@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 08</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">Lesson 08</header>
+      <main class="page">
+         <div class="container">
+            <p class="container__svg">Іконки, векторні зображення, SVG:</p>
+            <p class="container__elements"> Елементи дизайну, векторні зображення, SVG:</p>
+            <p class="container__content">Контентні зображення, растрові, JPG/PNG конвертовані в WEBP:</p>
+            <div class="container__content photo">
+               <img src="img/logo.webp" alt="Логотип">
+               <picture>
+                  <source srcset="img/mountains-head.webp 1x, img/mountains-head-2x.webp 2x, img/mountains-head-3x.webp 3x">
+                  <img src="img/mountains-head.webp" alt="Чоловік з рюкзаком на фоні зелених гір">
+               </picture>
+               <img class="photo__man-on-mountains" src="img/man-on-mountains.webp" alt="Чоловік в окулярах на фоні гір">
+               <div class="photo__background"></div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">footer</footer>
+   </div>
+</body>
+</html>

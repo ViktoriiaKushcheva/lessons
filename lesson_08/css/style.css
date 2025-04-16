@@ -1,0 +1,34 @@
+@import url("reset.css");
+
+.wrapper {
+   overflow: clip;
+   min-height: 100%;
+   background-color: blanchedalmond;
+}
+.header{
+   font-size: 40px;
+   text-align: center;
+   padding-top: 10px;
+   margin-bottom: 10px;
+}
+.container{
+   width: 1000px;
+   box-shadow: 0 0 3px 2px #2e2d2d;
+   margin: 0 auto;
+}
+.container__svg::after{
+   content: url("../img/arrow.svg") url("../img/magnifying-glass.svg") url("../img/plus.svg");
+}
+.container__elements::after{
+   content: url("../img/award.svg") url("../img/comma.svg") url("../img/group.svg") url("../img/mountain.svg") url("../img/people.svg") url("../img/team.svg") url("../img/rocket.svg") url("../img/");
+}
+.photo__man-on-mountains{
+   border-radius: 27% 0 27% 0;
+}
+.photo__background{
+   max-width: 100%;
+   height: 500px;
+   background-image: url("../img/mountains-footer.webp");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
