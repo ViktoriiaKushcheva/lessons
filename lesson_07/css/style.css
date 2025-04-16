@@ -1,0 +1,160 @@
+@import url("reset.css");
+
+.wrapper {
+   overflow: clip;
+   min-height: 100%;
+}
+.blue {
+   background-color: #412672;
+}
+.page {
+   font-family: "Inter", sans-serif;
+}
+[class *="container"]{
+   max-width: 1250px; 
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.title {
+   color: #fff;
+   font-size: 38px;
+   font-weight: 400;
+}
+strong {
+   font-weight: 700;
+}
+.faculty .title{
+   padding-top: 61px;
+   padding-bottom: 31px;
+}
+.faculty__cards {
+   display: inline-block;
+   font-size: 0;
+}
+.faculty__cards .card:nth-of-type(3n){
+   margin-right: 0;
+}
+.card {
+   max-width: 387px;
+   background-color: #fff;
+   padding: 20px;
+   margin-right: 20px;
+   box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
+}
+.card__name {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.card__descriptions {
+   font-size: 15px;
+   font-weight: 400;
+   color: #4F4F4F;
+   line-height: 19px;
+   margin-bottom: 16px;
+   height: 76px;
+}
+.card__more {
+   font-size: 15px;
+   font-weight: 400;
+   color: #FE3F3F;
+   line-height: 19px;
+}
+.card:hover {
+   background-color: #FFBE48;
+}
+.faculty {
+   padding-bottom: 102px;
+}
+
+.california{
+   font-size: 0;
+   display: inline-block;
+}
+.california__information {
+   max-width: 540px;
+}
+.california__information .title {
+   color: #412672;
+   margin-top: 153px;
+   margin-bottom: 20px;
+}
+.text {
+   color: #412672;
+   font-size: 22px;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+.list__text {
+   color: #4F4F4F;
+   font-size: 20px;
+   line-height: 51px;
+}
+.list__text::before{
+   content: "";
+   width: 29px;
+   height: 40px;
+   background: url("../img/frame.svg") 0 12px no-repeat;
+   margin-right: 15px;
+   vertical-align: top;
+}
+/* 
+.game{
+   width: 1600px;
+   height: 1600px;
+   background-color: antiquewhite;
+   margin-top: 50px;
+   font-size: 25px;
+}
+.game h1{
+   font-size: 30px;
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-color: #4F4F4F;
+   text-decoration-style:double;
+}
+.start{
+   width: 90px;
+   height: 50px;
+   background-color: brown;
+   text-align: center;
+   line-height: 48px;
+   margin-top: 60px;
+   margin-left: 200px;
+   border-radius: 10px;
+}
+.start:hover {
+   box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
+   background-color: rgb(222, 99, 99);
+}
+.game__elements{
+   display: inline-block;
+}
+.first,
+.second,
+.third,
+.fourth{
+   visibility: hidden;
+}
+.game__elements:hover .first {
+   width: 100px;
+   height: 200px;
+   background-color: #FFBE48;
+   text-align: center;
+   border-radius: 8px;
+   margin-left: 195px;
+   visibility: visible;
+}
+.first:hover+.second{
+   width: 10px;
+   height: 100px;
+   background-color: #FFBE48;
+   text-align: center;
+   border-radius: 8px;
+   margin-left: 195px;
+   visibility: visible;
+} */
+
+
