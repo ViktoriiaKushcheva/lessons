@@ -165,9 +165,9 @@
 /* ======================================================================================= */
 .container-gray {
    background: url("../img/group_7.svg") right 370px no-repeat scroll,
-               url("../img/group-left.svg") left 450px no-repeat scroll,
-               url("../img/zucchini.svg") left 950px no-repeat scroll,
-               url("../img/radish.svg") right 600px no-repeat scroll,
+               url("../img/group-left.svg") left 490px no-repeat scroll,
+               url("../img/zucchini.svg") 35px 950px no-repeat scroll,
+               url("../img/radish.svg") 1300px 600px no-repeat scroll,
                linear-gradient(180deg, #F2F5F3 20.01%, #FFF 100%);            
 }
 .category {
